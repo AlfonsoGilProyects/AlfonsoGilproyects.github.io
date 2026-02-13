@@ -1,217 +1,314 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMAL - Gestión de Redes Sociales para Empresas</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMAL - Gestión de Redes Sociales para Empresas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header id="inicio">
-        <nav class="navbar">
-            <div class="logo">
-                <span>IMAL_RRSS</span>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#testimonios">Testimonios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <div class="logo">
+        <img src="imal_rrss.jpg" alt="IMAL Logo">
+        <span class="logo-text">IMAL_RRSS</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
 
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Transforma tu presencia en redes sociales</h1>
-                <p>Estrategias inteligentes y creativas que impulsan tu marca y generan resultados reales para tu empresa.</p>
-                <a href="#contacto" class="btn-primary">Solicita tu consulta</a>
-                <a href="#servicios" class="btn-secondary">Nuestros servicios</a>
-            </div>
-        </section>
-    </header>
-
-    <!-- Servicios -->
-    <section id="servicios" class="services">
-        <div class="container">
-            <h2 class="section-title">Nuestros Servicios</h2>
-            <p class="section-subtitle">Ofrecemos soluciones integrales de gestión de redes sociales diseñadas específicamente para el crecimiento de tu empresa.</p>
-            
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Estrategia Digital</h3>
-                    <p>Desarrollamos estrategias personalizadas que alinean tus objetivos de negocio con la dinámica de las redes sociales.</p>
-                    <a href="#" class="btn-link">Más información</a>
-                </div>
-                <div class="service-card">
-                    <h3>Gestión de Contenido</h3>
-                    <p>Creación y publicación de contenido atractivo y relevante que engage a tu audiencia y fortalece tu marca.</p>
-                    <a href="#" class="btn-link">Más información</a>
-                </div>
-                <div class="service-card">
-                    <h3>Community Management</h3>
-                    <p>Manejo profesional de tu comunidad, respondiendo a comentarios y construyendo relaciones auténticas con tus seguidores.</p>
-                    <a href="#" class="btn-link">Más información</a>
-                </div>
-                <div class="service-card">
-                    <h3>Publicidad Pagada</h3>
-                    <p>Campañas publicitarias segmentadas y optimizadas para maximizar tu ROI en las redes sociales.</p>
-                    <a href="#" class="btn-link">Más información</a>
-                </div>
-                <div class="service-card">
-                    <h3>Analítica y Reporting</h3>
-                    <p>Seguimiento de métricas clave y reportes mensuales con insights accionables para tu estrategia.</p>
-                    <a href="#" class="btn-link">Más información</a>
-                </div>
-                <div class="service-card">
-                    <h3>Influencer Marketing</h3>
-                    <p>Colaboraciones estratégicas con influencers que amplían tu alcance y generan engagement auténtico.</p>
-                    <a href="#" class="btn-link">Más información</a>
-                </div>
-            </div>
+  <!-- Hero Section -->
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Transforma tu presencia en redes sociales</h1>
+        <p>Estrategias inteligentes y creativas que impulsan tu marca y generan resultados reales para tu empresa.</p>
+        <div class="hero-buttons">
+          <a href="#contacto" class="btn">Solicita tu consulta</a>
+          <a href="#servicios" class="btn btn-outline">Nuestros servicios</a>
         </div>
-    </section>
+      </div>
+      <div class="hero-illustration">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 500'%3E%3Crect width='800' height='500' fill='%23F5F7FA'/%3E%3Cpath d='M50 50 L50 450 L750 450 L750 50 Z' fill='none' stroke='%23E0E0E0' stroke-width='2'/%3E%3Cpath d='M100 150 L150 300 L200 200 L250 350 L300 250 L350 350 L400 200 L450 300 L500 150 L550 300 L600 250 L650 350 L700 200' stroke='%232D9CDB' stroke-width='4' fill='none'/%3E%3Ccircle cx='100' cy='150' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='150' cy='300' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='200' cy='200' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='250' cy='350' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='300' cy='250' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='350' cy='350' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='400' cy='200' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='450' cy='300' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='500' cy='150' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='550' cy='300' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='600' cy='250' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='650' cy='350' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='700' cy='200' r='8' fill='%232D9CDB'/%3E%3Ctext x='400' y='400' font-family='Poppins' font-size='24' text-anchor='middle' fill='%23555' font-weight='600'%3EResultados en redes sociales%3C/text%3E%3C/svg%3E" alt="Grafico de redes sociales">
+      </div>
+    </div>
+  </section>
 
-    <!-- Nosotros -->
-    <section id="nosotros" class="about">
-        <div class="container">
-            <h2 class="section-title">Sobre IMAL</h2>
-            <div class="about-content">
-                <p>Desde 2018, IMAL se ha especializado en transformar la presencia digital de empresas mediante estrategias innovadoras en redes sociales. Nuestro enfoque único combina creatividad, análisis de datos y comprensión profunda de las dinámicas sociales para generar resultados tangibles.</p>
-                <p>Nuestra filosofía se basa en el principio de que cada marca es única y merece una estrategia personalizada. Trabajamos en estrecha colaboración con nuestros clientes para entender sus objetivos, identificar su audiencia objetivo y crear campañas que resuenen auténticamente.</p>
-                <p>Con un equipo de profesionales apasionados por el marketing digital y un enfoque siempre actualizado con las últimas tendencias, garantizamos que tu marca no solo esté presente, sino que destaque y crezca en el competitivo mundo de las redes sociales.</p>
-                <a href="#contacto" class="btn-primary">Conoce más sobre nosotros</a>
-            </div>
+  <!-- Services Section -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="section-title">
+        <h2>Nuestros Servicios</h2>
+        <p>Ofrecemos soluciones integrales de gestión de redes sociales diseñadas específicamente para el crecimiento de tu empresa.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Estrategia Digital</h3>
+          <p>Desarrollamos estrategias personalizadas que alinean tus objetivos de negocio con la dinámica de las redes sociales.</p>
+          <a href="#" class="btn btn-outline">Más información</a>
         </div>
-    </section>
-
-    <!-- Testimonios -->
-    <section id="testimonios" class="testimonials">
-        <div class="container">
-            <h2 class="section-title">Testimonios</h2>
-            <p class="section-subtitle">Lo que dicen nuestros clientes sobre nuestra gestión de redes sociales</p>
-            
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <p>"Trabajar con IMAL ha sido transformador para nuestro negocio. En solo 6 meses, aumentamos nuestro engagement en un 180% y generamos un 45% más de leads calificados. Su enfoque estratégico y creativo es inigualable."</p>
-                    <div class="testimonial-author">
-                        <span class="author-name">Marta Contreras</span>
-                        <span class="author-role">Directora de Marketing, TechInnovate</span>
-                        <span class="author-initials">MC</span>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <p>"La profesionalidad y dedicación del equipo de IMAL superaron todas nuestras expectativas. Sus campañas de publicidad pagada nos dieron un retorno de inversión del 320% en el primer trimestre. ¡Altamente recomendados!"</p>
-                    <div class="testimonial-author">
-                        <span class="author-name">Juan Ramírez</span>
-                        <span class="author-role">CEO, ModaElegante</span>
-                        <span class="author-initials">JR</span>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <p>"Desde que IMAL tomó el control de nuestras redes sociales, hemos visto un crecimiento constante en nuestra comunidad y una mejora significativa en la percepción de marca. Su atención al detalle y creatividad son excepcionales."</p>
-                    <div class="testimonial-author">
-                        <span class="author-name">Sofía López</span>
-                        <span class="author-role">Gerente de Comunicación, HealthyLife</span>
-                        <span class="author-initials">SL</span>
-                    </div>
-                </div>
-            </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-hashtag"></i>
+          </div>
+          <h3>Gestión de Contenido</h3>
+          <p>Creación y publicación de contenido atractivo y relevante que engage a tu audiencia y fortalece tu marca.</p>
+          <a href="#" class="btn btn-outline">Más información</a>
         </div>
-    </section>
-
-    <!-- Contacto -->
-    <section id="contacto" class="contact">
-        <div class="container">
-            <h2 class="section-title">Contáctanos</h2>
-            <p class="section-subtitle">¿Listo para transformar tu presencia en redes sociales? Completa el formulario y uno de nuestros expertos se pondrá en contacto contigo.</p>
-            
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>¡Hablemos de tu proyecto!</h3>
-                    <p>En IMAL, nos especializamos en crear estrategias sociales que generan resultados reales para tu negocio. Nuestro equipo está listo para ayudarte a alcanzar tus objetivos.</p>
-                    
-                    <div class="contact-details">
-                        <div class="detail-item">
-                            <h4>Nuestra ubicación</h4>
-                            <p>Calle Principal 123, Suite 456<br>Madrid, España</p>
-                        </div>
-                        <div class="detail-item">
-                            <h4>Llámanos</h4>
-                            <p>+34 911 234 567<br>Lunes a Viernes: 9:00 - 18:00</p>
-                        </div>
-                        <div class="detail-item">
-                            <h4>Correo electrónico</h4>
-                            <p>hola@imal.es<br>Respuesta en menos de 24 horas</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="contact-form">
-                    <form id="formulario-contacto">
-                        <input type="text" placeholder="Nombre completo" required>
-                        <input type="email" placeholder="Correo electrónico" required>
-                        <input type="text" placeholder="Empresa" required>
-                        <textarea placeholder="Mensaje" rows="5" required></textarea>
-                        <button type="submit" class="btn-primary">Enviar consulta</button>
-                    </form>
-                </div>
-            </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-comments"></i>
+          </div>
+          <h3>Community Management</h3>
+          <p>Manejo profesional de tu comunidad, respondiendo a comentarios y construyendo relaciones auténticas con tus seguidores.</p>
+          <a href="#" class="btn btn-outline">Más información</a>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4>IMAL_RRSS</h4>
-                    <p>Estrategias sociales innovadoras para empresas que buscan crecer en el mundo digital.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Servicios</h4>
-                    <ul>
-                        <li><a href="#">Estrategia Digital</a></li>
-                        <li><a href="#">Gestión de Contenido</a></li>
-                        <li><a href="#">Community Management</a></li>
-                        <li><a href="#">Publicidad Pagada</a></li>
-                        <li><a href="#">Analítica y Reporting</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Empresa</h4>
-                    <ul>
-                        <li><a href="#">Sobre Nosotros</a></li>
-                        <li><a href="#">Nuestro Equipo</a></li>
-                        <li><a href="#">Casos de Éxito</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Recursos</h4>
-                    <ul>
-                        <li><a href="#">Guías Gratuitas</a></li>
-                        <li><a href="#">Webinars</a></li>
-                        <li><a href="#">Herramientas</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Políticas de Privacidad</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 IMAL_RRSS - Gestión de Redes Sociales para Empresas. Todos los derechos reservados.</p>
-            </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3>Publicidad Pagada</h3>
+          <p>Campañas publicitarias segmentadas y optimizadas para maximizar tu ROI en las redes sociales.</p>
+          <a href="#" class="btn btn-outline">Más información</a>
         </div>
-    </footer>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-analytics"></i>
+          </div>
+          <h3>Analítica y Reporting</h3>
+          <p>Seguimiento de métricas clave y reportes mensuales con insights accionables para tu estrategia.</p>
+          <a href="#" class="btn btn-outline">Más información</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Influencer Marketing</h3>
+          <p>Colaboraciones estratégicas con influencers que amplían tu alcance y generan engagement auténtico.</p>
+          <a href="#" class="btn btn-outline">Más información</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- About Section -->
+  <section class="about" id="nosotros">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>Sobre IMAL</h2>
+          <p>Desde 2018, IMAL se ha especializado en transformar la presencia digital de empresas mediante estrategias innovadoras en redes sociales. Nuestro enfoque único combina creatividad, análisis de datos y comprensión profunda de las dinámicas sociales para generar resultados tangibles.</p>
+          <p>Nuestra filosofía se basa en el principio de que cada marca es única y merece una estrategia personalizada. Trabajamos en estrecha colaboración con nuestros clientes para entender sus objetivos, identificar su audiencia objetivo y crear campañas que resuenen auténticamente.</p>
+          <p>Con un equipo de profesionales apasionados por el marketing digital y un enfoque siempre actualizado con las últimas tendencias, garantizamos que tu marca no solo esté presente, sino que destaque y crezca en el competitivo mundo de las redes sociales.</p>
+          <a href="#contacto" class="btn">Conoce más sobre nosotros</a>
+        </div>
+        <div class="about-image">
+          <div class="stats">
+            <div class="stat-item">
+              <span class="stat-number">150+</span>
+              <span class="stat-label">Clientes satisfechos</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">500%</span>
+              <span class="stat-label">Crecimiento promedio</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">4.9</span>
+              <span class="stat-label">Puntuación media</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonios">
+    <div class="container">
+      <div class="section-title">
+        <h2>Testimonios</h2>
+        <p>Lo que dicen nuestros clientes sobre nuestra gestión de redes sociales</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Trabajar con IMAL ha sido transformador para nuestro negocio. En solo 6 meses, aumentamos nuestro engagement en un 180% y generamos un 45% más de leads calificados. Su enfoque estratégico y creativo es inigualable."</p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <span>MC</span>
+            </div>
+            <div class="author-info">
+              <h4>Marta Contreras</h4>
+              <p>Directora de Marketing, TechInnovate</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"La profesionalidad y dedicación del equipo de IMAL superaron todas nuestras expectativas. Sus campañas de publicidad pagada nos dieron un retorno de inversión del 320% en el primer trimestre. ¡Altamente recomendados!"</p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <span>JR</span>
+            </div>
+            <div class="author-info">
+              <h4>Juan Ramírez</h4>
+              <p>CEO, ModaElegante</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Desde que IMAL tomó el control de nuestras redes sociales, hemos visto un crecimiento constante en nuestra comunidad y una mejora significativa en la percepción de marca. Su atención al detalle y creatividad son excepcionales."</p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <span>SL</span>
+            </div>
+            <div class="author-info">
+              <h4>Sofía López</h4>
+              <p>Gerente de Comunicación, HealthyLife</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contacto">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contáctanos</h2>
+        <p>¿Listo para transformar tu presencia en redes sociales? Completa el formulario y uno de nuestros expertos se pondrá en contacto contigo.</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>¡Hablemos de tu proyecto!</h3>
+          <p>En IMAL, nos especializamos en crear estrategias sociales que generan resultados reales para tu negocio. Nuestro equipo está listo para ayudarte a alcanzar tus objetivos.</p>
+          <div class="contact-details">
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Nuestra ubicación</h4>
+                <p>Calle Principal 123, Suite 456<br>Madrid, España</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Llámanos</h4>
+                <p>+34 911 234 567<br>Lunes a Viernes: 9:00 - 18:00</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Correo electrónico</h4>
+                <p>hola@imal.es<br>Respuesta en menos de 24 horas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Nombre completo</label>
+              <input type="text" id="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" placeholder="tu@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="company">Empresa</label>
+              <input type="text" id="company" placeholder="Nombre de tu empresa" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar consulta</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <div class="logo" style="margin-bottom: 20px;">
+            <img src="imal_rrss.jpg" alt="IMAL Logo" style="height: 40px;">
+            <span class="logo-text" style="color: #fff;">IMAL_RRSS</span>
+          </div>
+          <p style="color: rgba(255,255,255,0.7); margin-bottom: 20px;">Estrategias sociales innovadoras para empresas que buscan crecer en el mundo digital.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Servicios</h3>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Estrategia Digital</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Gestión de Contenido</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Community Management</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Publicidad Pagada</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Analítica y Reporting</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Empresa</h3>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Sobre Nosotros</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Nuestro Equipo</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Casos de Éxito</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Blog</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Contacto</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Recursos</h3>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Guías Gratuitas</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Webinars</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Herramientas</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Políticas de Privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        <p>&copy; 2026 IMAL_RRSS - Gestión de Redes Sociales para Empresas. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
+
 
