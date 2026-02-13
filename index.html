@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+ <body>
   <!-- Header -->
   <header>
     <div class="container header-content">
@@ -16,6 +17,12 @@
         <img src="imal_rrss.jpg" alt="IMAL Logo">
         <span class="logo-text">IMAL_RRSS</span>
       </div>
+      
+      <!-- Hamburger Menu Button -->
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+      
       <ul class="nav-links">
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#servicios">Servicios</a></li>
@@ -24,6 +31,19 @@
         <li><a href="#contacto">Contacto</a></li>
       </ul>
     </div>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
   </header>
 
   <!-- Hero Section -->
@@ -85,7 +105,7 @@
         </div>
         <div class="service-card">
           <div class="service-icon">
-            <i class="fas fa-analytics"></i>
+            <i class="fas fa-chart-bar"></i>
           </div>
           <h3>Analítica y Reporting</h3>
           <p>Seguimiento de métricas clave y reportes mensuales con insights accionables para tu estrategia.</p>
@@ -112,23 +132,10 @@
           <p>Desde 2018, IMAL se ha especializado en transformar la presencia digital de empresas mediante estrategias innovadoras en redes sociales. Nuestro enfoque único combina creatividad, análisis de datos y comprensión profunda de las dinámicas sociales para generar resultados tangibles.</p>
           <p>Nuestra filosofía se basa en el principio de que cada marca es única y merece una estrategia personalizada. Trabajamos en estrecha colaboración con nuestros clientes para entender sus objetivos, identificar su audiencia objetivo y crear campañas que resuenen auténticamente.</p>
           <p>Con un equipo de profesionales apasionados por el marketing digital y un enfoque siempre actualizado con las últimas tendencias, garantizamos que tu marca no solo esté presente, sino que destaque y crezca en el competitivo mundo de las redes sociales.</p>
-          <a href="#contacto" class="btn">Conoce más sobre nosotros</a>
+          <a href="#contacto" class="btn" style="margin-top: 20px;">Conoce más sobre nosotros</a>
         </div>
         <div class="about-image">
-          <div class="stats">
-            <div class="stat-item">
-              <span class="stat-number">150+</span>
-              <span class="stat-label">Clientes satisfechos</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">500%</span>
-              <span class="stat-label">Crecimiento promedio</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">4.9</span>
-              <span class="stat-label">Puntuación media</span>
-            </div>
-          </div>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23F5F7FA'/%3E%3Cpath d='M50 50 L550 50 L550 350 L50 350 Z' fill='none' stroke='%23E0E0E0' stroke-width='2'/%3E%3Cpath d='M100 100 L100 300 L200 150 L300 250 L400 100 L500 200' stroke='%232D9CDB' stroke-width='4' fill='none'/%3E%3Ccircle cx='100' cy='100' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='100' cy='300' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='200' cy='150' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='300' cy='250' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='400' cy='100' r='8' fill='%232D9CDB'/%3E%3Ccircle cx='500' cy='200' r='8' fill='%232D9CDB'/%3E%3Crect x='100' y='320' width='400' height='50' rx='25' fill='%232D9CDB'/%3E%3Ctext x='300' y='350' font-family='Poppins' font-size='20' text-anchor='middle' fill='%23FFFFFF' font-weight='600'%3E+200%25 de crecimiento%3C/text%3E%3C/svg%3E" alt="Equipo de IMAL trabajando">
         </div>
       </div>
     </div>
@@ -143,13 +150,9 @@
       </div>
       <div class="testimonials-grid">
         <div class="testimonial-card">
-          <div class="testimonial-content">
-            <p>"Trabajar con IMAL ha sido transformador para nuestro negocio. En solo 6 meses, aumentamos nuestro engagement en un 180% y generamos un 45% más de leads calificados. Su enfoque estratégico y creativo es inigualable."</p>
-          </div>
+          <p>Trabajar con IMAL ha sido transformador para nuestro negocio. En solo 6 meses, aumentamos nuestro engagement en un 180% y generamos un 45% más de leads calificados. Su enfoque estratégico y creativo es inigualable.</p>
           <div class="testimonial-author">
-            <div class="author-avatar">
-              <span>MC</span>
-            </div>
+            <div class="author-avatar">MC</div>
             <div class="author-info">
               <h4>Marta Contreras</h4>
               <p>Directora de Marketing, TechInnovate</p>
@@ -157,13 +160,9 @@
           </div>
         </div>
         <div class="testimonial-card">
-          <div class="testimonial-content">
-            <p>"La profesionalidad y dedicación del equipo de IMAL superaron todas nuestras expectativas. Sus campañas de publicidad pagada nos dieron un retorno de inversión del 320% en el primer trimestre. ¡Altamente recomendados!"</p>
-          </div>
+          <p>La profesionalidad y dedicación del equipo de IMAL superaron todas nuestras expectativas. Sus campañas de publicidad pagada nos dieron un retorno de inversión del 320% en el primer trimestre. ¡Altamente recomendados!</p>
           <div class="testimonial-author">
-            <div class="author-avatar">
-              <span>JR</span>
-            </div>
+            <div class="author-avatar">JR</div>
             <div class="author-info">
               <h4>Juan Ramírez</h4>
               <p>CEO, ModaElegante</p>
@@ -171,13 +170,9 @@
           </div>
         </div>
         <div class="testimonial-card">
-          <div class="testimonial-content">
-            <p>"Desde que IMAL tomó el control de nuestras redes sociales, hemos visto un crecimiento constante en nuestra comunidad y una mejora significativa en la percepción de marca. Su atención al detalle y creatividad son excepcionales."</p>
-          </div>
+          <p>Desde que IMAL tomó el control de nuestras redes sociales, hemos visto un crecimiento constante en nuestra comunidad y una mejora significativa en la percepción de marca. Su atención al detalle y creatividad son excepcionales.</p>
           <div class="testimonial-author">
-            <div class="author-avatar">
-              <span>SL</span>
-            </div>
+            <div class="author-avatar">SL</div>
             <div class="author-info">
               <h4>Sofía López</h4>
               <p>Gerente de Comunicación, HealthyLife</p>
@@ -197,45 +192,52 @@
       </div>
       <div class="contact-content">
         <div class="contact-info">
-          <h3>¡Hablemos de tu proyecto!</h3>
+          <h2>¡Hablemos de tu proyecto!</h2>
           <p>En IMAL, nos especializamos en crear estrategias sociales que generan resultados reales para tu negocio. Nuestro equipo está listo para ayudarte a alcanzar tus objetivos.</p>
+          
           <div class="contact-details">
-            <div class="detail-item">
-              <i class="fas fa-map-marker-alt"></i>
-              <div>
-                <h4>Nuestra ubicación</h4>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Nuestra ubicación</h3>
                 <p>Calle Principal 123, Suite 456<br>Madrid, España</p>
               </div>
             </div>
-            <div class="detail-item">
-              <i class="fas fa-phone"></i>
-              <div>
-                <h4>Llámanos</h4>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Llámanos</h3>
                 <p>+34 911 234 567<br>Lunes a Viernes: 9:00 - 18:00</p>
               </div>
             </div>
-            <div class="detail-item">
-              <i class="fas fa-envelope"></i>
-              <div>
-                <h4>Correo electrónico</h4>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Correo electrónico</h3>
                 <p>hola@imal.es<br>Respuesta en menos de 24 horas</p>
               </div>
             </div>
           </div>
         </div>
         <div class="contact-form">
-          <form id="contactForm">
+          <form>
             <div class="form-group">
               <label for="name">Nombre completo</label>
-              <input type="text" id="name" placeholder="Tu nombre" required>
+              <input type="text" id="name" placeholder="Tu nombre completo" required>
             </div>
             <div class="form-group">
               <label for="email">Correo electrónico</label>
-              <input type="email" id="email" placeholder="tu@email.com" required>
+              <input type="email" id="email" placeholder="tu@ejemplo.com" required>
             </div>
             <div class="form-group">
               <label for="company">Empresa</label>
-              <input type="text" id="company" placeholder="Nombre de tu empresa" required>
+              <input type="text" id="company" placeholder="Nombre de tu empresa">
             </div>
             <div class="form-group">
               <label for="message">Mensaje</label>
@@ -306,10 +308,10 @@
       </div>
     </div>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
